@@ -1,7 +1,6 @@
 /**index.wxss**/
 page{
   height:  100%;
-  background: #ccc;
 }
 .userinfo {
   display: flex;
@@ -24,6 +23,7 @@ page{
   width:  250rpx;
   height:  80rpx;
   line-height: 80rpx;
+  font-size: 26rpx;
   text-align: center;
   border: 1rpx solid #ccc;
   border-radius: 4rpx;

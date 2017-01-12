@@ -3,12 +3,12 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '开启小程序之旅',
     userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../posts/posts'
     })
   },
