@@ -10,7 +10,7 @@
     </swiper>
     <block wx:for="{{postData}}" wx:key="item">
         <view bindtap="onPostDetail" data-postid="{{item.postId}}">
-            <template is="postItem" data="{{item}}" />
+            <template is="postItem" data="{{...item}}" />
         </view>
     </block>
 </view>

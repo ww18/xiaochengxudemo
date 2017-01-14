@@ -1,16 +1,16 @@
 <template name="postItem">
     <view class="post-list">
         <view class="post-list-title">
-            <image src="{{item.avatar}}"></image>
-            <text>{{item.date}}</text>
+            <image src="{{avatar}}"></image>
+            <text>{{date}}</text>
         </view>
-        <image class="post-content-img" src="{{item.imgSrc}}"></image>
-        <text class="post-content">{{item.detail}}</text>
+        <image class="post-content-img" src="{{imgSrc}}"></image>
+        <text class="post-content">{{content}}</text>
         <view class="post-bottom">
             <image src="/images/icon/chat.png"></image>
-            <text>{{item.collection}}</text>
+            <text>{{collection}}</text>
             <image src="/images/icon/view.png"></image>
-            <text>{{item.reading}}</text>
+            <text>{{reading}}</text>
         </view>
     </view>
 </template>

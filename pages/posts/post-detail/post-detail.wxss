@@ -1,0 +1,55 @@
+.top-image{
+    width: 100%;
+    height: 500rpx;
+}
+.avatar{
+    font-size: 26rpx;
+    flex-direction: row;
+    margin: 30rpx;
+}
+.avatar image{
+    width: 64rpx;
+    height: 64rpx;
+    vertical-align: middle;
+    margin-right: 30rpx;
+}
+.avatar text{
+    margin-right: 20rpx;
+    color: #666;
+    vertical-align: middle;
+}
+.title{
+    font-size: 36rpx;
+    margin:0 30rpx 30rpx;
+}
+.icons{
+    position: relative;
+    background:#e3e3e3;
+    width: 680rpx;
+    height: 1px;
+    top: 20rpx;
+    left: 30rpx;
+}
+.icons image{
+    position: relative;
+    top:-32rpx;
+    float: right;
+    width: 64rpx;
+    height: 64rpx;
+    margin-left: 30rpx;
+}
+.content{
+    margin: 50rpx 30rpx;
+    font-size: 26rpx;
+    color: #999;
+    line-height: 40rpx;
+}
+.music-image{
+    position: absolute;
+    width: 101rpx;
+    height: 110rpx;
+    left: 50%;
+    margin-left: -51rpx;
+    top: 180rpx;
+    opacity: 0.6;
+}

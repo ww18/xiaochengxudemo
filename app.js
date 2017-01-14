@@ -25,6 +25,8 @@ App({
     }
   },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    is_music_play: false,
+    play_id: ''
   }
 })
