@@ -1,0 +1,6 @@
+<import src="movie-container/movie-container-template.wxml" />
+<view>
+    <template is="movieContainer" data="{{...inTheaters}}" />
+    <template is="movieContainer" data="{{...comingSoon}}" />
+    <template is="movieContainer" data="{{...Top}}" />
+</view>

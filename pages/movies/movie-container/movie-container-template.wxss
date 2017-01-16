@@ -1,0 +1,26 @@
+@import '../movie/movie-template.wxss';
+
+.movie-container{
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+.movie-container-title{
+    height: 60rpx;
+    color: #999;
+    font-size: 26rpx;
+    line-height: 60rpx;
+    padding: 0 20rpx;
+}
+.movie-container-title-right{
+    float: right;
+}
+.movie-container-title-right image{
+    margin-left: 10rpx;
+    width: 18rpx;
+    height: 20rpx;
+}
+.movie-container-content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 30rpx;
+}

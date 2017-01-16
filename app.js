@@ -27,6 +27,7 @@ App({
   globalData:{
     userInfo:null,
     is_music_play: false,
-    play_id: ''
+    play_id: '',
+    doubanAPI:"https://api.douban.com"
   }
 })

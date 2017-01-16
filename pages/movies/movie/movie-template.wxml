@@ -1,0 +1,14 @@
+<template name="movie">
+    <view class="movie-item">
+        <image class="movie-image" src="{{images.medium}}"></image>
+        <text class="movie-name">{{title}}</text>
+        <view class="movie-star">
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <text>{{rating.average}}</text>
+        </view>
+    </view>
+</template>

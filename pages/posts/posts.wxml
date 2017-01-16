@@ -2,8 +2,8 @@
 <view>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" class="swiper" interval='{{interval}}' duration="{{duration}}" circular="{{circular}}">
         <block wx:for="{{imgUrls}}" wx:key="item">
-            <swiper-item>
-            <image src="{{item}}" class="slide-image"/>
+            <swiper-item bindtap="onPostDetail" data-postid="{{item.postId}}">
+            <image src="{{item.url}}" class="slide-image"/>
             </swiper-item>
         </block>
         

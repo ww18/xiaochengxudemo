@@ -2,10 +2,10 @@ var postData = require('../../data/posts-data.js')
 Page({
   data: {
     imgUrls: [
-      '/images/1.jpg',
-      '/images/2.jpg',
-      '/images/3.jpg',
-      '/images/4.jpg'
+      {url:'/images/1.jpg',postId:0},
+      {url:'/images/2.jpg',postId:1},
+      {url:'/images/3.jpg',postId:2},
+      {url:'/images/4.jpg',postId:3}
     ],
     indicatorDots: true,
     autoplay: true,

@@ -1,0 +1,18 @@
+<import src="../movie/movie-template.wxml" />
+<template name="movieContainer">
+    <view class="movie-container">
+        <view class="movie-container-title">
+            <text>{{title}}</text>
+            <view class="movie-container-title-right">
+                <text>更多</text>
+                <image src="/images/icon/arrow-right.png"></image>
+            </view>
+        </view>
+        <view class="movie-container-content">
+            <block wx:for="{{subjects}}" wx:key="{{item}}">
+                <template is="movie" data="{{...item}}" />
+            </block>
+        </view>
+        
+    </view>
+</template>
