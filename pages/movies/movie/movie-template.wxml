@@ -3,11 +3,11 @@
         <image class="movie-image" src="{{images.medium}}"></image>
         <text class="movie-name">{{title}}</text>
         <view class="movie-star">
-            <image src="/images/icon/star.png"></image>
-            <image src="/images/icon/star.png"></image>
-            <image src="/images/icon/star.png"></image>
-            <image src="/images/icon/star.png"></image>
-            <image src="/images/icon/star.png"></image>
+            <block wx:for="{{stars}}" wx:key="{{item}}">
+                <image wx:if="{{item}}" src="/images/icon/star.png"></image>
+                <image wx:else src="/images/icon/none-star.png"></image>
+            </block>
+            
             <text>{{rating.average}}</text>
         </view>
     </view>

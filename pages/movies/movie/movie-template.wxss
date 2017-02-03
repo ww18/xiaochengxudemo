@@ -19,6 +19,7 @@
 .movie-star image{
     width: 24rpx;
     height: 24rpx;
+    margin-right: 3rpx;
 }
 .movie-star text{
     margin-left: 10rpx;

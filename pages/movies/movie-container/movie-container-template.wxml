@@ -3,7 +3,7 @@
     <view class="movie-container">
         <view class="movie-container-title">
             <text>{{title}}</text>
-            <view class="movie-container-title-right">
+            <view catchtap="onMoreMovies" data-type="{{type}}" class="movie-container-title-right">
                 <text>更多</text>
                 <image src="/images/icon/arrow-right.png"></image>
             </view>
